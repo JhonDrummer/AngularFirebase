@@ -18,3 +18,8 @@
   </li>
 </ul>
 
+<ul>
+  <li class="text" *ngFor="let usuario of usuarios | async">
+    {{usuario.name}}
+  </li>
+</ul>
